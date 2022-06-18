@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom'
 import PortfolioServices from '../components/Services/PortfolioServices'
 import ContactForm from '../components/Home/ContactForm'
 import ServicesCarrousel from '../components/Services/ServicesCarrousel';
-import Zones from '../components/Services/zones';
+import Zones from '../components/Services/Zones';
 
 
 
