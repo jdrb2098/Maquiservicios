@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "title": "Cumplimiento riguroso del SG-SST",
+        "image": "src/assets/beneffits/CumplimientoSGSST.png",
+        "description": "Cada uno de los procesos que llevamos acabo se desarrollan bajo un estricto cumplimiento de nuestro sistema de gestión de seguridad y salud en el trabajo, en el marco de la normatividad de cada uno de nuestros clientes."
+    },
+    {
+        "id":2,
+        "title": "Equipos de trabajo hechos a tu medida",
+        "image": "src/assets/beneffits/Equipo-de-trabajo1.png",
+        "description": "Formamos equipos de trabajo que cuentan con los conocimientos, habilidades, certificaciones y la capacidad de respuesta para dar atención a los requerimientos de cada uno de nuestros clientes."
+    },
+    {
+        "id":3,
+        "title": "Control y vigilancia operativa",
+        "image": "src/assets/beneffits/Control-y-Vigilancia1.png",
+        "description": "Cada uno de nuestros procesos cuentan con un sistema de control riguroso, que garantice el adecuado desarrollo de los requerimientos de nuestro clientes bajo nuestra supervisión."
+    },
+    {
+        "id":4,
+        "title": "Optimización de la vida útil de tus equipos",
+        "image": "src/assets/beneffits/OptimizacióndeEquipos.png",
+        "description": "Al desarrollar procesos estandarizados de ejecución y operación, nos aseguramos de que el cuidado de tus equipos e instalaciones sea una prioridad que garantice el uso optimo de los recursos."
+    },
+    {
+        "id":5,
+        "title": "Confianza y libertad operativa",
+        "image": "src/assets/beneffits/Confianza-y-libertad1.png",
+        "description": "Nuestros años de experiencia le permiten a nuestros clientes tener tranquilidad de que la ejecución de nuestros procesos se está llevando acabo de forma óptima, ahorrando tiempo de supervisión por parte de quienes confían en nosotros."
+    },
+    {
+        "id":6,
+        "title": "Diagnóstico detallado de los requerimientos",
+        "image": "src/assets/beneffits/Diagnóstico1.png",
+        "description": "Vamos un paso más allá de las solicitudes de nuestros clientes, realizando un diagnóstico de las solicitudes para la identificación de necesidades específicas de cada proyecto que recibimos."
+    }
+]

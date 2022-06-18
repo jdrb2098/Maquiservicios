@@ -1,0 +1,65 @@
+[
+    {
+        "id":1,
+        "title": "Desplegue de Mezcladores",
+        "icon": "src/assets/Portfolio_services/Mezcladores.png",
+        "image": "src/assets/Portfolio_services/DespeguedeMezcladoraimg.png",
+        "description": "Realizamos el retiro del concreto ubicado en la parte interna del equipo de producción en planta de concreto. Nuestro personal cuenta con la competencia requerida al estar certificados para trabajos en alturas y espacios confinados."
+    },
+    {
+        "id":2,
+        "title": "Despegue de Mixer",
+        "icon": "src/assets/Portfolio_services/Mixer.png",
+        "image": "src/assets/Portfolio_services/Mixerimg.png",
+        "description": "Llevamos a cabo el retiro de concreto interno de las ollas mezcladoras que transportan el material desde las plantas hacia sus clientes. Garantizamos el cuidado de la propiedad del cliente y la seguridad de nuestros trabajadores, mediante un diagnóstico previo de los equipos a intervenir."
+    },
+    {
+        "id":3,
+        "title": "Cargue de cemento",
+        "icon": "src/assets/Portfolio_services/Cargue.png",
+        "image": "src/assets/Portfolio_services/Cargueimg.png",
+        "description": "Suministramos el personal para el desarrollo operativo de cargue de los sacos de cemento a estibado, asesorando al cliente en el proceso de distribución y ubicación en los vehículos de trasporte del producto, acorde a las zonas de destino."
+    },
+    {
+        "id":4,
+        "title": "Carpe de vehículos",
+        "icon": "src/assets/Portfolio_services/Carpe.png",
+        "image": "src/assets/Portfolio_services/Carpe-de-vehiculos1img.png",
+        "description": "Asesoramos y ejecutamos los requerimientos para dar cumplimiento a la conservación del producto durante el proceso de transporte, minimizando los daños al producto debido a las diferentes eventualidades climáticas, mecánicas y operativas."
+    },
+    {
+        "id":5,
+        "title": "Suministro personal en planta",
+        "icon": "src/assets/Portfolio_services/Personal.png",
+        "image": "src/assets/Portfolio_services/Personalimg.png",
+        "description": "Gestionamos y ejecutamos por medio de nuestro personal operativo las actividades de limpieza, mantenimiento, embellecimiento y demarcaciones de zonas mediante la asesoría para el cumplimiento de normas y requerimientos de los clientes."
+    },
+    {
+        "id":6,
+        "title": "Manejo y disposición de Residuos.",
+        "icon": "src/assets/Portfolio_services/Residuos.png",
+        "image": "src/assets/Portfolio_services/Residuosimg.png",
+        "description": "Realizamos el transporte y disposición final de residuos sólidos y compactados de plantas de producción, zonas de construcción y demoliciones, al igual que el retiro de material orgánico, culminando el proceso con la expedición del certificado de disposición final de residuos."
+    },
+    {
+        "id":7,
+        "title": "Obras civiles",
+        "icon": "src/assets/Portfolio_services/Obras.png",
+        "image": "src/assets/Portfolio_services/Obras-civilesIMG.png",
+        "description": "Ejecutamos y adecuamos espacios construido y no construidos para montajes de plantas, administrativos y operativos, mediante la asesoría de las necesidades puntales de cada uno de nuestros clientes."
+    },
+    {
+        "id":8,
+        "title": "Alquiler de maquinaria",
+        "icon": "src/assets/Portfolio_services/Alquiler.png",
+        "image": "src/assets/Portfolio_services/Maquinariaimg.png",
+        "description": "Prestamos el servicio de alquiler de maquinaria amarilla con personal y equipos certificados para el desarrollo y la ejecución de las actividades de las operaciones."
+    },
+    {
+        "id":9,
+        "title": "Transporte de Carga",
+        "icon": "src/assets/Portfolio_services/Carga.png",
+        "image": "src/assets/Portfolio_services/Transporteimg.png",
+        "description": "Gestionamos la carga de los productos y materia prima de nuestros clientes mediante el uso de vehículos de carga pesada acorde a las especificaciones y necesidades de los elementos a transportar."
+    }
+]

@@ -1,0 +1,573 @@
+@import url(//db.onlinewebfonts.com/c/8f04f3a3b93f9667e6f73365272237d3?family=Avenir+Book);
+
+:root {
+  --color-primary: #0e5591;
+  --color-secondary: #f79228;
+  --color-info-light: #8f9092;
+  --background-color: #f3f1f1;
+  --background-color2: #aae0f8;
+  --background-benefits: #2f74ba;
+}
+body {
+  font-family: "Avenir Book" !important;
+  font-size: 1rem !important;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 600 !important;
+}
+img {
+  max-width: 100%;
+}
+.contact__btn {
+  border: 0;
+  height: 40px;
+  width: 120px;
+  border-radius: 0.5rem;
+  background-color: var(--color-secondary) !important;
+}
+/*----------------  AboutUS INTRO------------------------------- */
+.AboutUs {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+/*----------------  HOME INTRO------------------------------- */
+.homeIntro {
+  display: flex;
+}
+.homeIntro__container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+h1 {
+  font-family: "Avenir Book";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 65px;
+  letter-spacing: -0.015em;
+}
+.TrustCompanies__img__div img {
+  width: 80%;
+}
+button {
+  font-size: calc(10px + 2vmin);
+  color: var(--color-primary);
+}
+/*----------------------NAVBAR------------------------- */
+.text-white {
+  color: white;
+}
+.menu__button {
+  display: none !important;
+  height: 3rem;
+  width: 3rem;
+}
+.navbar__container {
+  display: flex;
+  width: -webkit-fill-available;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  align-items: center;
+}
+.navbar__links {
+  display: flex;
+}
+.navbar__links a {
+  color: var(--color-primary) !important;
+  font-size: large;
+  font-weight: bold;
+}
+.navbar__links a:hover {
+  color: var(--background-color2) !important;
+}
+/*---------------------FOOTER-------------------------- */
+.footer {
+  background-color: var(--color-primary);
+  padding: 2rem;
+}
+.footer a,
+p,
+i {
+  color: white;
+}
+.footer hr {
+  color: white;
+  opacity: 0.75;
+}
+.footer__info {
+  display: flex;
+  gap: 1rem;
+  align-items: stretch;
+}
+.footer__top {
+  display: flex;
+  justify-content: center;
+}
+.footer__botoom {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__botoom__container {
+  width: 25%;
+}
+.footer__linkding i {
+  font-size: 30px;
+  margin: 0.75rem;
+  cursor: pointer;
+}
+.text_muted {
+  color: var(--color-info-light);
+}
+.text-primary {
+  color: var(--color-primary) !important;
+}
+/*---------------------HomeIntro-------------------------- */
+.homeIntro {
+  background-image: url(./assets/Banner-principal-r.png);
+  margin-right: 0 !important;
+  margin-left: 0 !important ;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+.homeIntro__container {
+  background: linear-gradient(
+    90deg,
+    #0e5590 22.06%,
+    rgba(255, 255, 255, 0) 63.33%
+  );
+}
+/*---------------------BENEFITS-------------------------- */
+.benefits {
+  background-color: var(--background-benefits);
+  padding: 5rem;
+}
+
+.benefits__row {
+  gap: 3rem;
+}
+.benefit__info {
+  align-self: center;
+}
+.benefit__info img {
+  width: 100%;
+}
+.benefit__info p {
+  color: black;
+}
+.benefit__info__content {
+  padding: 2.5rem;
+  background-color: white;
+}
+/*---------------------Services-------------------------- */
+.services__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  height: 50%;
+}
+.HomeServiceButton {
+  background-color: #aae0f8 !important ;
+  border-color: white !important;
+}
+.HomeServiceButton:hover {
+  background-color: #2276bd !important;
+}
+/*---------------------home carousel-------------------------- */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel {
+  background-color: var(--background-benefits);
+}
+.carousel__caption {
+  background-color: white;
+  margin: 1rem 0rem;
+  padding: 1rem;
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.carousel img {
+  display: block;
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel p,
+h4,
+a {
+  color: black;
+  text-decoration: none !important;
+}
+.carousel {
+  padding: 2rem;
+  display: none;
+}
+/*---------------------FORM-------------------------- */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+.form_section {
+  background-image: url("./assets/Form/Fondo_formulario.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+.form_section .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+.form_section .container {
+  background-color: white;
+  border: 2px solid var(--background-color2);
+}
+.container h3 {
+  color: var(--color-primary);
+  font-size: 22px;
+  margin-top: 2rem;
+}
+.form button {
+  width: 100px;
+  height: 40px;
+  align-self: center;
+  border-radius: 0.5rem;
+  border: 0;
+  color: white;
+  background-color: var(--color-secondary);
+}
+.form button:hover {
+  background: #ffcc4c;
+}
+.form_row {
+  display: flex;
+  justify-content: space-between;
+}
+.form_row h2 {
+  color: var(--color-primary);
+}
+.form_label {
+  width: 40%;
+}
+.form_label input {
+  width: 100%;
+}
+.form_info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.TrustCompanies__img__div {
+  align-self: center;
+}
+.TrustCompanies {
+  padding: 5rem;
+  background-color: var(--background-color);
+}
+.TrustCompanies__title {
+  margin-bottom: 2rem;
+}
+.trustCompanies__imgs {
+  padding: 2rem;
+}
+@media screen and (max-width: 576px) {
+  .GoalsScreen {
+    height: 65vh !important;
+    justify-content: center;
+  }
+  .GoalsScreen img {
+    width: 170px;
+  }
+  .AboutUs__flexDC__row {
+    text-align: center;
+  }
+  .AboutUs__SG {
+    text-align: center;
+  }
+  .menu__button {
+    display: inline-block !important  ;
+  }
+  .navbar__links {
+    display: none;
+  }
+  .navbar__container {
+    padding: 1rem;
+  }
+  .footer__botoom {
+    display: none;
+  }
+  .trustCompanies__imgs {
+    gap: 5rem;
+  }
+  .TrustCompanies {
+    padding: 1rem;
+  }
+  .TrustCompanies__img__div img {
+    width: 100%;
+  }
+  .form_label input,
+  label {
+    width: 100%;
+  }
+  .form_row {
+    gap: 2rem;
+  }
+  .form_section {
+    background-image: 0;
+  }
+  .contact-us {
+    padding: 0 !important;
+  }
+  .homeIntro {
+    background-position: center;
+  }
+  .AboutUs_mobile_intro{
+    padding: 3rem;
+    text-align: center;
+    background: linear-gradient( 180deg, #0e5590 22.06%, rgba(255, 255, 255, 0) 63.33% );
+  }
+  .homeIntro__container {
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 3rem;
+    background: linear-gradient(
+      180deg,
+      #0e5590 22.06%,
+      rgba(255, 255, 255, 0) 63.33%
+    );
+  }
+  .ServicesScreenLayout {
+    display: none;
+  }
+  .AboutUs{
+    background-image: url(./assets/AboutUs/Nosotrosprincipalmobile.png) !important;
+  }
+  .SG__BG{
+    background-image: url(./assets/AboutUs/Cumplimiento-SG-SST-mobile.png) !important;
+  }
+  .colorblock {
+    height: 17px !important;
+    width: 20px !important;
+  }
+  .Services__Contact{
+    text-align: center ;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__botoom__container {
+    width: 33%;
+    font-size: 14px;
+  }
+  .GoalsScreen {
+    height: 100vh;
+  }
+  .carousel {
+    display: block;
+  }
+  .benefits {
+    display: none;
+  }
+}
+/*----------------  about us------------------------------- */
+.AboutUs {
+  background-image: url(./assets/AboutUs/NosotrosBannerprincipal.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.AboutUs__intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AboutUs__goals {
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.AboutUs__vision {
+  background-color: var(--background-color2);
+  padding: 2rem;
+}
+.Valores__Col {
+  padding: 2rem;
+}
+.AboutUs__Diferencia {
+  margin: 0;
+}
+.AboutUs__Diferencia__bg {
+  background-color: #63a3d6;
+  padding: 3rem;
+}
+.AboutUs__flexDC {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.AboutUs__bg {
+  background-image: url(./assets/AboutUs/Nuestro-equipo1.png);
+  background-size: cover;
+  background-position: center;
+}
+.AboutUs__SG button {
+  width: 150px;
+  height: 40px;
+  align-self: center;
+  border-radius: 0.5rem;
+  border: 0;
+  color: white;
+  background-color: var(--color-secondary);
+}
+.AboutUs__SG button:hover {
+  background: #ffcc4c;
+}
+.AboutUs__SG {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.SG__BG {
+  height: 50vh;
+  background-image: url(./assets/AboutUs/SG-SST1.png);
+  background-size: cover;
+  background-position: center;
+}
+.AboutUs__valores {
+  background-image: url(./assets/AboutUs/Valores-Background1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.AboutUs__Q {
+  background-image: url(./assets/AboutUs/Quienes-somos1.png);
+}
+.AboutUs__V {
+  background-image: url(./assets/AboutUs/Visión1.png);
+}
+.AboutUs__M {
+  background-image: url(./assets/AboutUs/Misión1.png);
+}
+.AboutUs__main {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.Services__infoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Services__Contact {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Services__Contact button {
+  width: 150px;
+  height: 40px;
+  align-self: center;
+  border-radius: 0.5rem;
+  border: 0;
+  color: white;
+  background-color: var(--color-secondary);
+}
+.Services__Contact button:hover {
+  background: #ffcc4c;
+}
+.ServicesCarousel {
+  background-color: white;
+}
+.contact__bootomBG {
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url(./assets/Portfolio_services/Banner-principal3.png);
+  margin-bottom: 5rem;
+}
+.GoalsScreen {
+  height: 100vh;
+  background-image: url(./assets/GoalsScreen/Home-Servicios-Background1.png);
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.GoalsScreen__Text {
+  text-align: center;
+  margin: 3rem;
+}
+.ServicesCard:hover {
+  background-color: var(--background-color2);
+}
+.ServicesCarousel .carousel-indicators button {
+  background-color: #aae0f8;
+}
+.ServicesCarousel .carousel-indicators {
+  bottom: -30px;
+}
+.ServicesCarousel img {
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ServicesCarousel .carousel-item {
+  border: 1px solid;
+}
+.servicesPortfolio {
+  background-image: url(./assets/Portfolio_services/Home-Servicios-Background1.png);
+  background-size: contain;
+  background-position: bottom;
+  padding-bottom: 15rem;
+  background-repeat: no-repeat;
+}
+.colorblock {
+  height: 34px;
+  width: 61px;
+}
+.zones__colorblock__container {
+  display: flex;
+  
+}
+.Zones {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 3rem 0rem;
+}
