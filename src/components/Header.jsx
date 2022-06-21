@@ -2,6 +2,8 @@ import React from "react";
 import { useState } from "react";
 import { Button, Offcanvas, Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
+import { Link } from "react-router-dom";
+import Headerlogo from "../../public/assets/LogoMsNav.svg";
 
 function Header() {
   const [show, setShow] = useState(false);
@@ -12,7 +14,7 @@ function Header() {
       <div className="navbar__container">
         <LinkContainer to="/">
           <Nav.Link>
-          <img src="/src/assets/LogoMsNav.svg" />
+            <img src={Headerlogo} />
           </Nav.Link>
         </LinkContainer>
 
@@ -34,7 +36,9 @@ function Header() {
 
       <Offcanvas show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
-          <img src="/src/assets/LogoMsNav.svg" />
+          <LinkContainer to="/">
+            <img src={Headerlogo} />
+          </LinkContainer>
         </Offcanvas.Header>
         <Offcanvas.Body>
           <LinkContainer to="/Nosotros">

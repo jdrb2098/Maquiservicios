@@ -34,7 +34,7 @@ function AboutUsQVM() {
               </Container>
             </Col>
           </Row>
-          <Row>
+          <Row className='AboutUs__QVM__RowReverse'>
             <Col className="AboutUs__vision" sm={12} md={6}>
               <Container>
                 <h3 style={{ color: "#2276BD" }}>Vision</h3>

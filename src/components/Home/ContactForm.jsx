@@ -5,12 +5,12 @@ function ContactForm() {
   return (
     <div className="form_section">
       <Row className="form_row">
-        <Col sm={12} md={6} style={{padding:'3rem'}}>
-          <h2>¿Deseas conocer cómo podemos apoyar tu empresa?</h2>
+        <Col sm={12} lg={6} style={{padding:'3rem'}}>
+          <h2 className="Form_row_title">¿Deseas conocer cómo podemos apoyar tu empresa?</h2>
         </Col>
-        <Col className="contact-us text-center" sm={12} md={6} style={{padding:'5rem'}}>
+        <Col className="contact-us text-center" sm={12} lg={6} style={{padding:'5rem'}}>
           <Container >
-          <h3>Déja tus datos y pronto nos pondremos en contacto contigo</h3>
+          <h3 className="Form_title">Déja tus datos y pronto nos pondremos en contacto contigo</h3>
           <form className='form' action="https://formspree.io/f/xgedqvqk" method="POST">
             <div className="form_row">
               <div className="form_label">

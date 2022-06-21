@@ -1,5 +1,11 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import Cemex from "../../../public/assets/trust_companies/Cemex.png";
+import Tequendama from "../../../public/assets/trust_companies/LogoCemTequendama.png";
+import Concremack from "../../../public/assets/trust_companies/concremack.png";
+import Argos from "../../../public/assets/trust_companies/argos.png";
+import Concremovil from "../../../public/assets/trust_companies/concremovil.png";
+import Holcim from "../../../public/assets/trust_companies/Holcim.png";
 
 function TrustCompanies() {
   return (
@@ -11,28 +17,26 @@ function TrustCompanies() {
         </h4>
       </div>
       <Row className="trustCompanies__imgs">
-        <Col className="TrustCompanies__img__div" sm={12} md={6}  xl={4}>
-          <img src="/src/assets/trust_companies/Cemex.png" />
+        <Col className="TrustCompanies__img__div" sm={12} md={4} >
+          <img src={Cemex} />
         </Col>
-        <Col className="TrustCompanies__img__div" sm={12} md={6}  xl={4}>
-          <img src="/src/assets/trust_companies/LogoCemTequendama.png" />
+        <Col className="TrustCompanies__img__div" sm={12} md={4} >
+          <img src={Tequendama} />
         </Col>
-        <Col className="TrustCompanies__img__div" sm={12} md={6}  xl={4}>
-          <img src="/src/assets/trust_companies/concremack.png" />
+        <Col className="TrustCompanies__img__div" sm={12} md={4} >
+          <img src={Concremack} />
         </Col>
-        <Col className="TrustCompanies__img__div" sm={12} md={6}  xl={4}>
-          <img src="/src/assets/trust_companies/argos.png" />
+      </Row>
+      <Row className="trustCompanies__imgs">
+        <Col className="TrustCompanies__img__div" sm={12} md={4} >
+          <img src={Argos} />
         </Col>
-
-        
-
-        <Col className="TrustCompanies__img__div" sm={12} md={6}  xl={4}>
-          <img src="/src/assets/trust_companies/concremovil.png" />
+        <Col className="TrustCompanies__img__div" sm={12} md={4} >
+          <img src={Concremovil} />
         </Col>
-        <Col className="TrustCompanies__img__div" sm={12} md={6}  xl={4}>
-          <img src="/src/assets/trust_companies/Holcim.png" />
+        <Col className="TrustCompanies__img__div" sm={12} md={4} >
+          <img src={Holcim} />
         </Col>
-        
       </Row>
     </div>
   );

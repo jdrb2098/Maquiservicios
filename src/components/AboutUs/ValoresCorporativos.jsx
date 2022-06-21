@@ -1,5 +1,10 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
+import Compromiso from '../../../public/assets/AboutUs/Compromiso.png'
+import Mejoramiento from '../../../public/assets/AboutUs/Mejoramiento.png'
+import Satisfaccion from '../../../public/assets/AboutUs/Satisfaccion.png'
+import Exelencia from '../../../public/assets/AboutUs/Mejoramiento-1.png'
+import Respeto from '../../../public/assets/AboutUs/Respeto.png'
 
 function ValoresCorporativos() {
   return (
@@ -11,7 +16,7 @@ function ValoresCorporativos() {
         <Container>
           <Row>
             <Col className="Valores__Col text-center" sm={12} md={4}>
-              <img src="src\assets\AboutUs\Compromiso.png" />
+              <img src={Compromiso} />
               <h4 style={{ color: "#2276BD" }}>Compromiso</h4>
               <p style={{ color: "black", padding: "0 3rem" }}>
                 con la generación de oportunidades laborales a las comunidades
@@ -19,7 +24,7 @@ function ValoresCorporativos() {
               </p>
             </Col>
             <Col className="Valores__Col text-center" sm={12} md={4}>
-              <img src="src\assets\AboutUs\Mejoramiento.png" alt="" />
+              <img src={Mejoramiento} alt="" />
               <h4 style={{ color: "#2276BD" }}>Mejoramiento</h4>
               <p style={{ color: "black", padding: "0 3rem" }}>
                 continuo como pilar de la organización y de cada uno de nuestros
@@ -27,7 +32,7 @@ function ValoresCorporativos() {
               </p>
             </Col>
             <Col className="Valores__Col text-center" sm={12} md={4}>
-              <img src="src\assets\AboutUs\Satisfaccion.png" alt="" />
+              <img src={Satisfaccion} alt="" />
               <h4 style={{ color: "#2276BD" }}>Excelencia</h4>
               <p style={{ color: "black", padding: "0 3rem" }}>
                 operativa y administrativa en cada proceso y ambiente laboral de
@@ -37,7 +42,7 @@ function ValoresCorporativos() {
           </Row>
           <Row>
             <Col className="Valores__Col text-center" sm={12} md={6}>
-              <img src="src\assets\AboutUs\Mejoramiento-1.png" alt="" />
+              <img src={Exelencia} alt="" />
               <h4 style={{ color: "#2276BD" }}>Satisfacción</h4>
               <p style={{ color: "black", padding: "0px 5rem" }}>
                 por cada trabajo, entrega y servicio que se presta a nuestros
@@ -45,7 +50,7 @@ function ValoresCorporativos() {
               </p>
             </Col>
             <Col className="Valores__Col text-center" sm={12} md={6}>
-              <img src="src\assets\AboutUs\Respeto.png" alt="" />
+              <img src={Respeto} alt="" />
               <h4 style={{ color: "#2276BD" }}>Respeto</h4>
               <p style={{ color: "black", padding: "0px 5rem" }}>
                 por la diversidad de cada colaborador de Maquiservicios C.C. y

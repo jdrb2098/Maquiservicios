@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import Frame from '../../../public/assets/Portfolio_services/Frame.png'
 
 function Zones() {
   return (
@@ -8,7 +9,7 @@ function Zones() {
         <Col sm={12} md={6}>
           <img
             style={{ maxWidth: "100%" }}
-            src="src/assets/Portfolio_services/Frame.png"
+            src={Frame}
             alt=""
           />
         </Col>

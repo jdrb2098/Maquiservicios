@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import benefits from "../../assets/json/benefits.json"
+import benefits from "../../../public/assets/json/benefits.json"
 import BenefitCard from "./BenefitCard";
 
 function Benefits() {

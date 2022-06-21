@@ -1,12 +1,13 @@
 import React from "react";
 import { LinkContainer } from "react-router-bootstrap";
 import { Nav } from "react-bootstrap";
+import FooterLogo from '../../public/assets/LogoWhite.svg'
 
 function Footer() {
   return (
     <div className="footer">
       <div className="footer__top">
-        <img src="/src/assets/LogoWhite.svg"/>
+        <img src={FooterLogo}/>
       </div>
       <hr />
       <div className="footer__botoom">

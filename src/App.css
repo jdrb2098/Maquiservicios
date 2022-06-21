@@ -12,6 +12,10 @@ body {
   font-family: "Avenir Book" !important;
   font-size: 1rem !important;
 }
+h1 {
+  font-size: 35px !important;
+  line-height: 55px !important;
+}
 h1,
 h2,
 h3,
@@ -29,11 +33,7 @@ img {
   background-color: var(--color-secondary) !important;
 }
 /*----------------  AboutUS INTRO------------------------------- */
-.AboutUs {
-  display: flex;
-  justify-content: center;
-  padding: 3rem;
-}
+
 /*----------------  HOME INTRO------------------------------- */
 .homeIntro {
   display: flex;
@@ -45,6 +45,16 @@ img {
   gap: 2rem;
   justify-content: center;
   align-items: flex-start;
+}
+.HomeCarousel {
+  background-color: var(--background-benefits);
+  padding-top: 5rem;
+  display: none;
+}
+.HomeCarousel__text {
+  text-align: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 h1 {
@@ -132,7 +142,7 @@ i {
 }
 /*---------------------HomeIntro-------------------------- */
 .homeIntro {
-  background-image: url(./assets/Banner-principal-r.png);
+  background-image: url(../public/assets/Banner-principal-r.png);
   margin-right: 0 !important;
   margin-left: 0 !important ;
   height: 100vh;
@@ -146,6 +156,9 @@ i {
     #0e5590 22.06%,
     rgba(255, 255, 255, 0) 63.33%
   );
+}
+.homeIntro__text {
+  padding-left: 4rem;
 }
 /*---------------------BENEFITS-------------------------- */
 .benefits {
@@ -228,7 +241,7 @@ a {
   padding: 2rem;
 }
 .form_section {
-  background-image: url("./assets/Form/Fondo_formulario.png");
+  background-image: url(../public/assets/Form/Fondo_formulario.png);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -272,6 +285,9 @@ a {
 .form_label {
   width: 40%;
 }
+.Form_row_title{
+  margin-top: 5rem;
+}
 .form_label input {
   width: 100%;
 }
@@ -294,7 +310,219 @@ a {
 .trustCompanies__imgs {
   padding: 2rem;
 }
+
+/*----------------  about us------------------------------- */
+.AboutUs {
+  background-image: url(../public/assets/AboutUs/NosotrosBannerprincipal.png) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
+.AboutUs__intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AboutUs__goals {
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.AboutUs__vision {
+  background-color: var(--background-color2);
+  padding: 2rem;
+}
+.Valores__Col {
+  padding: 2rem;
+}
+.AboutUs__Diferencia {
+  margin: 0;
+}
+.AboutUs__Diferencia__bg {
+  background-color: #63a3d6;
+  padding: 3rem;
+}
+.AboutUs__flexDC {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.AboutUs__bg {
+  background-image: url(../public/assets/AboutUs/Nuestro-equipo1.png);
+  background-size: cover;
+  background-position: center;
+}
+.AboutUs__SG button {
+  width: 150px;
+  height: 40px;
+  align-self: center;
+  border-radius: 0.5rem;
+  border: 0;
+  color: white;
+  background-color: var(--color-secondary);
+}
+.AboutUs__SG button:hover {
+  background: #ffcc4c;
+}
+.AboutUs__SG {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.SG__BG {
+  height: 50vh;
+  background-image: url(../public/assets/AboutUs/SG-SST1.png);
+  background-size: cover;
+  background-position: center;
+}
+.AboutUs__valores {
+  background-image: url(../public/assets/AboutUs/Valores-Background1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.AboutUs__Q {
+  background-image: url(../public/assets/AboutUs/Quienes-somos1.png);
+}
+.AboutUs__V {
+  background-image: url(../public/assets/AboutUs/Visión1.png);
+}
+.AboutUs__M {
+  background-image: url(../public/assets/AboutUs/Misión1.png);
+}
+.AboutUs__main {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.Services__infoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Services__Contact {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Services__Contact button {
+  width: 150px;
+  height: 40px;
+  align-self: center;
+  border-radius: 0.5rem;
+  border: 0;
+  color: white;
+  background-color: var(--color-secondary);
+}
+.Services__Contact button:hover {
+  background: #ffcc4c;
+}
+.ServicesCarousel {
+  background-color: white;
+}
+.contact__bootomBG {
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../public/assets/Portfolio_services/Banner-principal3.png);
+  margin-bottom: 5rem;
+}
+.GoalsScreen {
+  height: 100vh;
+  background-image: url(../public/assets/GoalsScreen/Home-Servicios-Background1.png);
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.GoalsScreen__Text {
+  text-align: center;
+  margin: 3rem;
+}
+.ServicesCard:hover {
+  background-color: var(--background-color2);
+}
+.ServicesCarousel .carousel-indicators button {
+  background-color: #aae0f8;
+}
+.ServicesCarousel .carousel-indicators {
+  bottom: -30px;
+}
+.ServicesCarousel img {
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ServicesCarousel .carousel-item {
+  border: 1px solid;
+}
+.servicesPortfolio {
+  background-image: url(../public/assets/Portfolio_services/Home-Servicios-Background1.png);
+  background-size: contain;
+  background-position: bottom;
+  padding-bottom: 15rem;
+  background-repeat: no-repeat;
+}
+.colorblock {
+  height: 34px;
+  width: 61px;
+}
+.zones__colorblock__container {
+  display: flex;
+}
+.Zones {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 3rem 0rem;
+}
 @media screen and (max-width: 576px) {
+  .AboutUs__M, .AboutUs__Q, .AboutUs__V{
+    height: 50vh;
+    background-position: center;
+  }
+  .AboutUs__QVM__RowReverse{
+    flex-direction: column-reverse;
+  }
+  .Form_row_title{
+    margin-top: 0rem;
+  }
+  .Form_title{
+    padding: 0 !important;
+  }
+  .form_section{
+    height: 125vh !important;
+  }
+  .form_row .col-sm-12{
+    padding: 0rem 3rem;
+  }
+  
+  .contact-us .container{
+    background-color: #fff0;
+    border: 0;
+  }
+  .homeCarosuelImg {
+    height: auto !important;
+    padding: 0 !important;
+  }
+  .homeIntro__text {
+    padding-left: 2rem;
+    padding-right: 2rem !important;
+  }
+  .homeIntro__text h1 {
+    font-size: 25px !important;
+  }
   .GoalsScreen {
     height: 65vh !important;
     justify-content: center;
@@ -345,10 +573,14 @@ a {
   .homeIntro {
     background-position: center;
   }
-  .AboutUs_mobile_intro{
-    padding: 3rem;
+  .AboutUs_mobile_intro {
+    padding: 0 3rem;
     text-align: center;
-    background: linear-gradient( 180deg, #0e5590 22.06%, rgba(255, 255, 255, 0) 63.33% );
+    background: linear-gradient(
+      180deg,
+      #0e5590 22.06%,
+      rgba(255, 255, 255, 0) 63.33%
+    );
   }
   .homeIntro__container {
     text-align: center;
@@ -364,22 +596,70 @@ a {
   .ServicesScreenLayout {
     display: none;
   }
-  .AboutUs{
-    background-image: url(./assets/AboutUs/Nosotrosprincipalmobile.png) !important;
-  }
-  .SG__BG{
-    background-image: url(./assets/AboutUs/Cumplimiento-SG-SST-mobile.png) !important;
+
+  .SG__BG {
+    background-image: url(../public/assets/AboutUs/Cumplimiento-SG-SST-mobile.png) !important;
   }
   .colorblock {
     height: 17px !important;
     width: 20px !important;
   }
-  .Services__Contact{
-    text-align: center ;
+  .Services__Contact {
+    text-align: center;
+  }
+  .AboutUs__intro{
+    padding-top: 0;
   }
 }
 
 @media screen and (max-width: 1024px) {
+  .AboutUs{
+    padding: 0;
+    background-image: url(../public/assets/AboutUs/Nosotrosprincipalmobile.png) !important ;
+  }
+  .AboutUs_mobile_intro {
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(
+      180deg,
+      #0e5590 22.06%,
+      rgba(255, 255, 255, 0) 63.33%
+    );
+  }
+  .AboutUs__intro{
+    padding-top: 5rem;
+  }
+  .form_section{
+    height: 80vh;
+  }
+  .HomeCarousel{
+    display: block;
+  }
+  .Form_title{
+    padding: 0 6rem ;
+  }
+  .homeCarosuelImg {
+    height: auto !important;
+    padding: 0 !important;
+  }
+  .servicesPortfolio {
+    padding-bottom: 5rem;
+  }
+  .homeIntro__container {
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 3rem;
+    background: linear-gradient(
+      180deg,
+      #0e5590 22.06%,
+      rgba(255, 255, 255, 0) 63.33%
+    );
+  }
+  .homeIntro__text {
+    padding-right: 4rem;
+    padding-top: 2rem;
+  }
   .footer__botoom__container {
     width: 33%;
     font-size: 14px;
@@ -393,181 +673,4 @@ a {
   .benefits {
     display: none;
   }
-}
-/*----------------  about us------------------------------- */
-.AboutUs {
-  background-image: url(./assets/AboutUs/NosotrosBannerprincipal.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  padding: 0;
-}
-.AboutUs__intro {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.AboutUs__goals {
-  height: 25vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.AboutUs__vision {
-  background-color: var(--background-color2);
-  padding: 2rem;
-}
-.Valores__Col {
-  padding: 2rem;
-}
-.AboutUs__Diferencia {
-  margin: 0;
-}
-.AboutUs__Diferencia__bg {
-  background-color: #63a3d6;
-  padding: 3rem;
-}
-.AboutUs__flexDC {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-.AboutUs__bg {
-  background-image: url(./assets/AboutUs/Nuestro-equipo1.png);
-  background-size: cover;
-  background-position: center;
-}
-.AboutUs__SG button {
-  width: 150px;
-  height: 40px;
-  align-self: center;
-  border-radius: 0.5rem;
-  border: 0;
-  color: white;
-  background-color: var(--color-secondary);
-}
-.AboutUs__SG button:hover {
-  background: #ffcc4c;
-}
-.AboutUs__SG {
-  height: 50vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.SG__BG {
-  height: 50vh;
-  background-image: url(./assets/AboutUs/SG-SST1.png);
-  background-size: cover;
-  background-position: center;
-}
-.AboutUs__valores {
-  background-image: url(./assets/AboutUs/Valores-Background1.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-.AboutUs__Q {
-  background-image: url(./assets/AboutUs/Quienes-somos1.png);
-}
-.AboutUs__V {
-  background-image: url(./assets/AboutUs/Visión1.png);
-}
-.AboutUs__M {
-  background-image: url(./assets/AboutUs/Misión1.png);
-}
-.AboutUs__main {
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
-}
-.Services__infoContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.Services__Contact {
-  height: 40vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.Services__Contact button {
-  width: 150px;
-  height: 40px;
-  align-self: center;
-  border-radius: 0.5rem;
-  border: 0;
-  color: white;
-  background-color: var(--color-secondary);
-}
-.Services__Contact button:hover {
-  background: #ffcc4c;
-}
-.ServicesCarousel {
-  background-color: white;
-}
-.contact__bootomBG {
-  height: 60vh;
-  background-size: cover;
-  background-position: center;
-  background-image: url(./assets/Portfolio_services/Banner-principal3.png);
-  margin-bottom: 5rem;
-}
-.GoalsScreen {
-  height: 100vh;
-  background-image: url(./assets/GoalsScreen/Home-Servicios-Background1.png);
-  background-position: bottom;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.GoalsScreen__Text {
-  text-align: center;
-  margin: 3rem;
-}
-.ServicesCard:hover {
-  background-color: var(--background-color2);
-}
-.ServicesCarousel .carousel-indicators button {
-  background-color: #aae0f8;
-}
-.ServicesCarousel .carousel-indicators {
-  bottom: -30px;
-}
-.ServicesCarousel img {
-  padding: 0;
-  margin: 0;
-  margin-left: auto;
-  margin-right: auto;
-}
-.ServicesCarousel .carousel-item {
-  border: 1px solid;
-}
-.servicesPortfolio {
-  background-image: url(./assets/Portfolio_services/Home-Servicios-Background1.png);
-  background-size: contain;
-  background-position: bottom;
-  padding-bottom: 15rem;
-  background-repeat: no-repeat;
-}
-.colorblock {
-  height: 34px;
-  width: 61px;
-}
-.zones__colorblock__container {
-  display: flex;
-  
-}
-.Zones {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  margin: 3rem 0rem;
 }

@@ -28,7 +28,7 @@ function ServiceCard({ service }) {
         </Card.Title>
 
         <Card.Text as="span" className="text-center">
-          {service.description.split(" ").slice(0, 9).join(" ") + "..."}
+          {service.description.split(" ").slice(0, 11).join(" ") + "..."}
         </Card.Text>
         <div>
           <Card.Title as="div">

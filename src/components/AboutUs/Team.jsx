@@ -1,5 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Comp1 from '../../../public/assets/AboutUs/Component1.png'
+import Comp2 from '../../../public/assets/AboutUs/Component2.png'
+import Comp3 from '../../../public/assets/AboutUs/Component3.png'
 
 function Team() {
   return (
@@ -23,7 +26,7 @@ function Team() {
             <div className="AboutUs__flexDC">
               <Row className="AboutUs__flexDC__row">
                 <Col sm={12} md={2}>
-                  <img src="src\assets\AboutUs\Component1.png" alt="" />
+                  <img src={Comp1} alt="" />
                 </Col>
                 <Col sm={12} md={10}>
                   <p>
@@ -34,7 +37,7 @@ function Team() {
               </Row>
               <Row className="AboutUs__flexDC__row">
                 <Col sm={12} md={2}>
-                  <img src="src\assets\AboutUs\Component2.png" alt="" />
+                  <img src={Comp2} alt="" />
                 </Col>
                 <Col sm={12} md={10}>
                   <p>
@@ -47,7 +50,7 @@ function Team() {
               </Row>
               <Row className="AboutUs__flexDC__row">
                 <Col sm={12} md={2}>
-                  <img src="src\assets\AboutUs\Component3.png" alt="" />
+                  <img src={Comp3} alt="" />
                 </Col>
                 <Col sm={12} md={10}>
                   <p>

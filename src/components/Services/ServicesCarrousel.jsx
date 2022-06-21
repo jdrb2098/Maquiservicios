@@ -1,5 +1,5 @@
 import React from "react";
-import services from "../../assets/json/services.json";
+import services from "../../../public/assets/json/services.json";
 import { Carousel, Image } from "react-bootstrap";
 
 function ServicesCarrousel() {
