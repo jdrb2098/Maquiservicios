@@ -36,7 +36,7 @@ function Header() {
 
       <Offcanvas show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
-          <LinkContainer to="/">
+          <LinkContainer onClick={handleClose} to="/">
             <img src={Headerlogo} />
           </LinkContainer>
         </Offcanvas.Header>
