@@ -1,4 +1,5 @@
 @import url(//db.onlinewebfonts.com/c/8f04f3a3b93f9667e6f73365272237d3?family=Avenir+Book);
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Sen&display=swap');
 
 :root {
   --color-primary: #0e5591;
@@ -9,7 +10,7 @@
   --background-benefits: #2f74ba;
 }
 body {
-  font-family: "Avenir Book" !important;
+  font-family: 'Sen', sans-serif !important;
   font-size: 1rem !important;
 }
 h1 {
