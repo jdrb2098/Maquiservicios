@@ -29,7 +29,7 @@ function Header() {
             <Nav.Link>Nuestros Logros</Nav.Link>
           </LinkContainer>
         </div>
-        <Button className="menu__button" variant="primary" onClick={handleShow}>
+        <Button className="menu__button" style={{backgroundColor: '#2276BD'}} onClick={handleShow}>
           <i className="fa-solid fa-bars"></i>
         </Button>
       </div>
@@ -41,13 +41,13 @@ function Header() {
           </LinkContainer>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          <LinkContainer to="/Nosotros">
+          <LinkContainer onClick={handleClose} to="/Nosotros">
             <Nav.Link>Nosotros</Nav.Link>
           </LinkContainer>
-          <LinkContainer to="/Servicios">
+          <LinkContainer onClick={handleClose} to="/Servicios">
             <Nav.Link>Servicios</Nav.Link>
           </LinkContainer>
-          <LinkContainer to="/Logros">
+          <LinkContainer onClick={handleClose} to="/Logros">
             <Nav.Link>Nuestros Logros</Nav.Link>
           </LinkContainer>
         </Offcanvas.Body>

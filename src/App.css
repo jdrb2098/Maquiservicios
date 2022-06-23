@@ -285,7 +285,7 @@ a {
 .form_label {
   width: 40%;
 }
-.Form_row_title{
+.Form_row_title {
   margin-top: 5rem;
 }
 .form_label input {
@@ -480,6 +480,7 @@ a {
 }
 .zones__colorblock__container {
   display: flex;
+  gap: 3rem;
 }
 .Zones {
   display: flex;
@@ -488,27 +489,29 @@ a {
   margin: 3rem 0rem;
 }
 @media screen and (max-width: 576px) {
-  .AboutUs__M, .AboutUs__Q, .AboutUs__V{
+  .AboutUs__M,
+  .AboutUs__Q,
+  .AboutUs__V {
     height: 50vh;
     background-position: center;
   }
-  .AboutUs__QVM__RowReverse{
+  .AboutUs__QVM__RowReverse {
     flex-direction: column-reverse;
   }
-  .Form_row_title{
+  .Form_row_title {
     margin-top: 0rem;
   }
-  .Form_title{
+  .Form_title {
     padding: 0 !important;
   }
-  .form_section{
+  .form_section {
     height: 125vh !important;
   }
-  .form_row .col-sm-12{
+  .form_row .col-sm-12 {
     padding: 0rem 3rem;
   }
-  
-  .contact-us .container{
+
+  .contact-us .container {
     background-color: #fff0;
     border: 0;
   }
@@ -535,6 +538,7 @@ a {
   }
   .AboutUs__SG {
     text-align: center;
+    height: 50vh !important;
   }
   .menu__button {
     display: inline-block !important  ;
@@ -594,7 +598,7 @@ a {
     );
   }
   .ServicesScreenLayout {
-    display: none;
+    display: none !important;
   }
 
   .SG__BG {
@@ -607,13 +611,51 @@ a {
   .Services__Contact {
     text-align: center;
   }
-  .AboutUs__intro{
+  .AboutUs__intro {
     padding-top: 0;
+  }
+  .AboutUs__goals {
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .AboutUs__valores{
+    background-image: none;
+  }
+  .AboutUs__bg{
+    height: 50vh;
+  }
+  .AboutUs__Diferencia__bg .container h2{
+    padding-bottom: 3rem;
+  }
+  .AboutUs__SG h2{
+    font-size: 20px;
+  }
+  .Services__Contact{
+    height: 40vh !important;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .Form_row_title{
+    text-align: center;
+    margin-bottom: -3rem;
+    margin-top: -4rem;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .AboutUs{
+  .AboutUs__SG{
+    height: 40vh;
+  }
+  .SG__BG{
+    background-image: url(../public/assets/AboutUs/SG-SSTMobile.png);
+    height: 60vh;
+  }
+  .AboutUs__valores{
+    background-size: cover;
+  }
+  .AboutUs {
+    background-position: center;
     padding: 0;
     background-image: url(../public/assets/AboutUs/Nosotrosprincipalmobile.png) !important ;
   }
@@ -626,17 +668,17 @@ a {
       rgba(255, 255, 255, 0) 63.33%
     );
   }
-  .AboutUs__intro{
+  .AboutUs__intro {
     padding-top: 5rem;
   }
-  .form_section{
+  .form_section {
     height: 80vh;
   }
-  .HomeCarousel{
+  .HomeCarousel {
     display: block;
   }
-  .Form_title{
-    padding: 0 6rem ;
+  .Form_title {
+    padding: 0 6rem;
   }
   .homeCarosuelImg {
     height: auto !important;
@@ -672,5 +714,14 @@ a {
   }
   .benefits {
     display: none;
+  }
+  .Services__Contact{
+    height: 30vh;
+  }
+  .ServicesScreenLayout{
+    display: none;
+  }
+  .contact__bootomBG{
+    margin-bottom: 0;
   }
 }

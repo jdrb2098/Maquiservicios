@@ -24,7 +24,7 @@ function ServicesScreen() {
       <div className='Services__Contact'>
         <h2 style={{color:'#8F9092'}}>Estamos en capacidad de desarrollar</h2>
         <h2 style={{color:'#0E5590'}}><b>PROCESOS Y SERVICIOS A TU MEDIDA</b></h2>
-        <button onClick={executeScroll}>Contactanos</button>
+        <button className='mt-3' onClick={executeScroll}>Contactanos</button>
       </div>
       <div className='contact__bootomBG'>
 
