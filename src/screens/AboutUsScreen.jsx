@@ -5,7 +5,7 @@ import AboutUsGoals from "../components/AboutUs/AboutUsGoals";
 import AboutUsQVM from "../components/AboutUs/AboutUsQVM";
 import Team from "../components/AboutUs/Team";
 import ValoresCorporativos from "../components/AboutUs/ValoresCorporativos";
-import PDF from '../../public/assets/AboutUs/Sistema-de-SeguridadySaludenelTrabajo_Maquiservicios'
+import PDF from '../../public/assets/AboutUs/Sistema-de-SeguridadySaludenelTrabajo_Maquiservicios.pdf'
 
 function AboutUsScreen() {
   return (
