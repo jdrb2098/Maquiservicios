@@ -30,7 +30,7 @@ function portfolioServices({ location }) {
                   sm={12}
                   md={6}
                   lg={4}
-                  onClick={() => seeSummary(service.id)}
+                  onMouseOver={() => seeSummary(service.id)}
                 >
                   <ServiceCard service={service} />
                 </Col>

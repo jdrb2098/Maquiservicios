@@ -31,7 +31,7 @@ function Benefits() {
           </p>
           <Row id="benefits" >
             {benefits.map((benefit) => (
-              <Col key={benefit.id} sm={12} md={6} lg={4} onClick={() => seeSummary(benefit.id)}>
+              <Col key={benefit.id} sm={12} md={6} lg={4} onMouseOver={() => seeSummary(benefit.id)}>
                 <BenefitCard benefit={benefit} />
               </Col>
             ))}

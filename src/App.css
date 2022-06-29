@@ -121,12 +121,10 @@ i {
   display: flex;
   justify-content: center;
 }
-.footer__botoom {
-  display: flex;
-  justify-content: space-between;
-}
-.footer__botoom__container {
-  width: 25%;
+
+.footer__botoom__container3 {
+  padding-left: 5rem !important                                                             ;
+  align-self: center;
 }
 .footer__linkding i {
   font-size: 30px;
@@ -548,7 +546,7 @@ a {
   .navbar__container {
     padding: 1rem;
   }
-  .footer__botoom {
+  .phoneDisplayNone {
     display: none;
   }
   .trustCompanies__imgs {
