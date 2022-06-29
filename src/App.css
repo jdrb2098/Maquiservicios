@@ -486,6 +486,9 @@ a {
   margin: 3rem 0rem;
 }
 @media screen and (max-width: 576px) {
+  .footer__botoom__container3{
+    padding-left: 0!important;
+  }
   .AboutUs__M,
   .AboutUs__Q,
   .AboutUs__V {
