@@ -311,7 +311,7 @@ a {
 /*----------------  about us------------------------------- */
 .AboutUs {
   background-image: url(../public/assets/AboutUs/NosotrosBannerprincipal.png) !important;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   display: flex;
