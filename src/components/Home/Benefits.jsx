@@ -26,7 +26,7 @@ function Benefits() {
             Trabajamos por el bienestar <b>DE TU EMPRESA</b>{" "}
           </h2>
           <p style={{fontSize: 'x-large'}}>
-            Estos son todos los beneficios que obtienes al aquirir nuestros
+            Estos son todos los beneficios que obtienes al adquirir nuestros
             servicios
           </p>
           <Row id="benefits" >
