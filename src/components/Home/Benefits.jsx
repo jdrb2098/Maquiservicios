@@ -23,7 +23,7 @@ function Benefits() {
         </Col>
         <Col>
           <h2 className="text-center" style={{color: 'white'}}>
-            Trabajamos por el bienestar <b>DE TU EMPRESA</b>{" "}
+            Trabajamos por el bienestar <b>de tu empresa</b>{" "}
           </h2>
           <p style={{fontSize: 'x-large'}}>
             Estos son todos los beneficios que obtienes al adquirir nuestros

@@ -99,6 +99,9 @@ button {
   color: var(--background-color2) !important;
 }
 /*---------------------FOOTER-------------------------- */
+.Condiciones-pdf:hover p{
+ color: var(--background-benefits);
+}
 .footer {
   background-color: var(--color-primary);
   padding: 2rem;
